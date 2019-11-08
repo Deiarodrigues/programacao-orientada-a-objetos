@@ -24,7 +24,10 @@ with open("amazon.csv") as arquivo:
 		elif int(ano) >= 2010 and '"Mato Grosso"' == estado:
 			questao_4 += int(numero)
 
-print("questao_1:\n Houveram {} queimadas".format(questao_1))
-print("questao_2:\n Houveram {} queimadas".format(questao_2))
-print("questao_3:\n Houveram {} queimadas".format(questao_3))
-print("questao_4:\n Houveram {} queimadas".format(questao_4))
+print("Questão 1:\n No Acre ocorreram {} queimadas em 2015".format(questao_1))
+print("\n")
+print("Questão 2:\n No Ceará ocorreram {} queimadas em 2014".format(questao_2))
+print("\n")
+print("Questão 3:\n Ocorreram {} queimadas no estado do Amazonas".format(questao_3))
+print("\n")
+print("Questão 4:\n De 2010 até o último ano disponível ocorreram {} queimadas no estado Mato Grosso".format(questao_4))
